@@ -1,0 +1,54 @@
+body {
+	font:100 1.5em Georgia, helvetica, sans-serif;
+	color: black;
+	background-color: white;
+}
+#p1 {
+	color: #f4b042;
+	background-color: white;
+	text-decoration:underline;
+}
+#p2 {
+	color: hsl(240, 100%, 75%);
+	background-color: white;
+	font-style: italic;
+}
+#p3 {
+	color: hsl(100, 50%, 50%);
+	background-color: white;
+	text-decoration:underline;
+}
+#p4 {
+	font: 14px/1.5"Times New Roman", times,serif;
+	font-style: italic;
+	padding: 30px 10px;
+	border: 1x black solid;
+	border-width: 1px 5px 5px 1px;
+	border-color: red green blue yellow;
+	margin: 10px 50px;
+	background-color:white;
+}
+h2 {
+	font-size: 1.5em;
+	color: #ccc;
+	margin: 20px;
+	padding: 40px;
+	text-transform:uppercase;
+	text-decoration: underline;
+	border: 5px navy dashed;
+}
+.opacity {
+	 opacity: 0.5;
+}
+.opacity:hover {
+    opacity: 1.0;
+}
+/*a {
+	display: block;
+	width: 200px;
+	height: 63px;
+	background-image: src="1000islands.jpeg";
+	text-decoration: none;
+	text-indent: -999em;
+
+}*/
