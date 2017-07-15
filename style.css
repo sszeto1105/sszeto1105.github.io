@@ -1,32 +1,29 @@
 body {
-	font:100 1.5em Georgia, helvetica, sans-serif;
+	font:80 1.5em Georgia, helvetica, sans-serif;
 	color: black;
 	background-color: white;
-}
-#p1 {
-	color: #f4b042;
-	background-color: white;
-	text-decoration:underline;
-}
-#p2 {
-	color: black;
-	background-color: white;
-	font-style: italic;
-}
-#p3 {
-	color: #f4b042;
-	background-color: white;
-	text-decoration:underline;
 }
 
+h1 {
+	font:6.0em Georgia;
+	color:black;
+	text-align:center;
+}
+
+p {
+	font:1.5em Georgia;
+	color: black;
+	background-color: white;
+}
+
+
 h2 {
-	font-size: 3.0em;
+	font: 3.0em Georgia;
 	color: #f4b042;
 	margin: 20px;
 	padding: 40px;
 	text-transform:uppercase;
 	text-decoration: underline;
-	border: 5px navy dashed;
 }
 .opacity {
 	 opacity: 0.5;
