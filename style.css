@@ -9,28 +9,19 @@ body {
 	text-decoration:underline;
 }
 #p2 {
-	color: hsl(240, 100%, 75%);
+	color: black;
 	background-color: white;
 	font-style: italic;
 }
 #p3 {
-	color: hsl(100, 50%, 50%);
+	color: #f4b042;
 	background-color: white;
 	text-decoration:underline;
 }
-#p4 {
-	font: 14px/1.5"Times New Roman", times,serif;
-	font-style: italic;
-	padding: 30px 10px;
-	border: 1x black solid;
-	border-width: 1px 5px 5px 1px;
-	border-color: red green blue yellow;
-	margin: 10px 50px;
-	background-color:white;
-}
+
 h2 {
-	font-size: 1.5em;
-	color: #ccc;
+	font-size: 3.0em;
+	color: #f4b042;
 	margin: 20px;
 	padding: 40px;
 	text-transform:uppercase;
