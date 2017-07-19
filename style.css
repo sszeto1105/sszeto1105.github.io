@@ -1,27 +1,38 @@
 body {
-	font:80 1.5em Georgia, helvetica, sans-serif;
+	font-family: Georgia, "Times New Roman";
 	color: black;
 	background-color: white;
 }
 
+#menu {
+	background-color:#8cd9b3;
+}
+
+#main-content {
+	background-color:pink;
+}
+
+.round-button {
+	background-color:#26734d;
+	color:white;
+}
+
 h1 {
-	font:6.0em Georgia;
+	font-size: 6.0em;
 	color:#00664d;
 	text-align:center;
 }
-button {
-	font:Georgia;
-}
+
 
 p {
-	font:1.5em Georgia;
+	font-size: 5.0em;
 	color: black;
 	background-color: white;
 }
 
 
 h2 {
-	font: 3.0em Georgia;
+	font-size: 3.0em;
 	color: #f4b042;
 	margin: 20px;
 	padding: 40px;
@@ -30,5 +41,5 @@ h2 {
 }
 
 h5 {
-	font:Georgia;
+	font-size: 1.5em;
 }
