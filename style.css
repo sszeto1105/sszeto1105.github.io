@@ -6,8 +6,11 @@ body {
 
 h1 {
 	font:6.0em Georgia;
-	color:black;
+	color:#00664d;
 	text-align:center;
+}
+button {
+	font:Georgia;
 }
 
 p {
@@ -25,18 +28,7 @@ h2 {
 	text-transform:uppercase;
 	text-decoration: underline;
 }
-.opacity {
-	 opacity: 0.5;
-}
-.opacity:hover {
-    opacity: 1.0;
-}
-/*a {
-	display: block;
-	width: 200px;
-	height: 63px;
-	background-image: src="1000islands.jpeg";
-	text-decoration: none;
-	text-indent: -999em;
 
-}*/
+h5 {
+	font:Georgia;
+}
