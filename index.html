@@ -11,31 +11,66 @@
 </head>
 <body>
 
-<div class="container" id="header">
-	<header>
-		<h1><b>SONIA SZETO</h1>
-	</header>
+<div class="container-fluid" id="header">
 
 <div class="row">
-	<div class="col-sm-3" id="menu"><br>       
-  		<div type="button" class="btn btn-lg btn-block round-button">ABOUT</div><br>
-  		<div type="button" class="btn btn-lg btn-block round-button">RESUME</div><br>
-  		<button type="button" class="btn btn-lg btn-block round-button">RECIPES</button><br>
-  		<button type="button" class="btn btn-lg btn-block round-button">CONTACT</button><br>
+	<div class="col-sm-3" id="menu"> 
+		<h1>SONIA SZETO</h1>     
+  		<a href="#about" type="button" class="btn btn-lg btn-block round-button">ABOUT</a>
+  		<a href="#resume" type="button" class="btn btn-lg btn-block round-button">RESUME</a>
+  		<a href="#recipes" type="button" class="btn btn-lg btn-block round-button">RECIPES</a>
+  		<a href="#contact" type="button" class="btn btn-lg btn-block round-button">CONTACT</a>
 	</div>
 
 <div class="col-sm-9" id="main-content">
-	<img src="cactus.jpeg" alt="cactus" width="564" height="845">
+	<div id="banner-image">
+	</div>
+<!-- 	<img src="cactus.jpeg" alt="cactus" id="cactus"> -->
 		
-	<h2><b>ABOUT</h2>
-		<p><em>HELLO</em>, a little bit about me...</p>
-		<img src="sonia.jpg" alt="about-photo" style="float:left" width="320" height="240" id="about-photo">
-	<h4>I am a born and raised Canadian living in Huntington Beach, CA.</h4><br>
+	<h2 id="about"><b>ABOUT</h2>
+	<h3><em>HELLO</em>, a little bit about me...</h3>
+	<div class="row">
+		<div class="col-sm-4">
+			<img src="sonia.jpg" alt="about-photo" id="about-photo">
+		</div>
+		<div class="col-sm-8">
+			<p>I am a born and raised Canadian living in Huntington Beach, CA.</p><br>
+		</div>
+	</div>
 	
-	<h2><b>RESUME</h2>
-		<h4>If you're interested in seeing my professional work experience, take a look at my <a href="docs/Resume-StylingSupervisor062017.pdf">resume</a>.</h4><br>
+	<h2 id="resume"><b>RESUME</h2>
+	<p>If you're interested in seeing my professional work experience, take a look at my <a href="Resume-StylingSupervisor062017.pdf">resume</a>.</p><br>
 		
-	<h2><b>RECIPES</h2>	
+	<h2 id="recipes"><b>RECIPES</h2>
+		<div class="gallery" id="recipe-images">
+  			<a href="applehandpie.pdf">
+    			<img src="applehandpie.jpg">
+  			</a>
+  		<div class="desc">Hand Pies</div>
+		</div>
+
+		<div class="gallery" id="recipe-images">
+  			<a href="croissants.pdf">
+    			<img src="croissants.jpeg">
+  			</a>
+  		<div class="desc">Croissants</div>
+		</div>
+
+		<div class="gallery" id="recipe-images">
+  			<a href="quiche.pdf">
+    			<img src="quiche.jpeg">
+  			</a>
+  		<div class="desc">Quiche</div>
+		</div>
+
+		<div class="gallery" id="recipe-images">
+  			<a href="cookies.pdf">
+    			<img src="chocolate.jpeg">
+  			</a>
+  		<div class="desc">Cookies</div>
+		</div>	
+
+	<h2 id="contact"><b>CONTACT</h2>
 
 </div>
 </div>
